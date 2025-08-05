@@ -24,7 +24,7 @@
 
 <template>
   <div class="video">
-    <video :class="{ fullscreen }" src="@/assets/bg.mp4" type="video/mp4" autoplay muted loop playsinline webkit-playsinline preload="none" :controls="false" ref="video">您的浏览器不支持 HTML5 video 标签</video>
+    <video :class="{ fullscreen }" :src="src" type="video/mp4" autoplay muted loop playsinline webkit-playsinline preload="none" :controls="false" ref="video">您的浏览器不支持 HTML5 video 标签</video>
   </div>
 </template>
 
