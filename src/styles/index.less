@@ -1,0 +1,35 @@
+@import 'ant-design-vue/dist/reset.css';
+
+/**
+ * 项目投产时，请移除此处代码！
+ * ========== ========== ==========
+ */
+@font-face {
+  font-family: 'heaver';
+  src: url('//oss.vue-scaff.com/boldhead.woff') format('woff');
+}
+
+:root {
+  overflow: hidden;
+  font-size: 62.5%;
+
+  color: @color-text;
+  background-color: @color-app;
+}
+
+html,
+body {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  height: 100%;
+  font-size: 12px;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
