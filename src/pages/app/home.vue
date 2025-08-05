@@ -18,6 +18,10 @@
   opacity: 0.78;
 }
 
+.icon {
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.125));
+}
+
 .carousel {
   & {
     width: 280px;
@@ -75,7 +79,7 @@
         <div>
           <qrcode :size="240" :value="qr_mini">
             <a-flex vertical justify="center" align="center" gap="middle">
-              <img width="64" src="@/assets/icon_wechat.png" />
+              <img class="icon" width="64" src="@/assets/icon_wechat.png" />
               <div>
                 小程序扫码
                 <br />
@@ -87,7 +91,7 @@
         <div>
           <qrcode :size="240" :value="qr_android">
             <a-flex vertical justify="center" align="center" gap="middle">
-              <img width="64" src="@/assets/icon_android.png" />
+              <img class="icon" width="64" src="@/assets/icon_android.png" />
               <div>
                 安卓下载
                 <br />
