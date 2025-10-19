@@ -13,6 +13,12 @@ import { viteMockServe } from 'vite-plugin-mock';
 // Plugin Visualizer
 import { visualizer } from 'rollup-plugin-visualizer';
 
+// Unplugin Vite
+import Components from 'unplugin-vue-components/vite';
+
+// Unplugin Resolvers
+import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
+
 // Set Scaff Conf
 const vueScaffConf = {};
 
@@ -26,11 +32,23 @@ const env = loadEnv('development', process.cwd());
 export default defineConfig({
   plugins: [
     vue(),
+
     scaff(vueScaffConf),
+
+    Components({
+      resolvers: [
+        AntDesignVueResolver({
+          importStyle: 'less',
+          resolveIcons: true,
+        }),
+      ],
+    }),
+
     viteMockServe({
       mockPath: 'mock', // mock 文件夹目录
       localEnabled: true, // 开发环境开启
     }),
+
     visualizer({
       open: false,
       gzipSize: true,

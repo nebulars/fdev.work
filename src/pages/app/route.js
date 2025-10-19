@@ -15,6 +15,11 @@ export default ({ extension }) => {
         name: 'team',
         component: () => import('@/pages/app/team.vue'),
       },
+      {
+        path: '/privacy',
+        name: 'privacy',
+        component: () => import('@/pages/app/privacy.vue'),
+      },
     ],
   };
 };
