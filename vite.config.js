@@ -61,6 +61,8 @@ export default defineConfig({
     __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
   },
 
+  base: '/',
+
   server: {
     // Host for VPC
     host: '127.0.0.1',
