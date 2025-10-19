@@ -77,6 +77,10 @@ export default defineConfig({
     },
   },
 
+  build: {
+    outDir: 'docs',
+  },
+
   plugin: {
     'postcss-pxtorem': {
       // Conversion Ratio
