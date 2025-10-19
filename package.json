@@ -4,17 +4,9 @@
   "author": "joenix",
   "scripts": {
     "dev": "vite",
-    "dev:test": "vite --mode test",
-    "dev:prod": "vite --mode prod",
-    "(～o￣3￣)～": "========== ========== ==========",
     "build": "vite build",
-    "build:test": "vite build --mode test",
-    "build:prod": "vite build --mode prod",
     "serve": "vite preview",
-    "serve:test": "vite preview --mode test",
-    "serve:prod": "vite preview --mode prod",
-    "(づ｡◕‿‿◕｡)づ": "========== ========== ==========",
-    "swagger": "swagger-typescript-api generate -p http://10.23.217.243:18092/api/v2/api-docs -o ./src/registry/swagger --n index.js --default-as-fetch --js --axios"
+    "push": "forage oss --prefix site --env none"
   },
   "dependencies": {
     "@nebulars/forage": "^0.2.20",
@@ -23,6 +15,7 @@
     "axios": "^1.8.4"
   },
   "devDependencies": {
+    "@nebulars/cmd": "^0.3.13",
     "@scaff/typescript": "^3.7.29",
     "@scaff/vite-plugin-node": "^3.7.29",
     "@vitejs/plugin-vue": "^3.2.0",
