@@ -1,140 +1,45 @@
 stages:
   - Build
-  - Push
-  - Deploy
 
-default:
-  interruptible: true
-  before_script:
-    #登录docker后续推送镜像
-    - docker login -u "${HARBOR_USER}" -p "${HARBOR_PWD}" ${HARBOR_HOST}
-    #大写转换为小写，不然打包报错
-    - declare -l PROJECT_NAME=${CI_PROJECT_NAME}
-    - export IMG="${HARBOR_HOST}/${HARBOR_NAMESPACE}/${PROJECT_NAME}:${CI_COMMIT_SHORT_SHA}-${CI_PIPELINE_ID}"
-#缓存构建物给下个阶段使用
 cache:
   paths:
     - dist/
 
-package:dev:
+build:dev:
   stage: Build
   interruptible: true
   script:
     - yarn --registry https://registry.npmmirror.com
+    - yarn install -f
     - yarn build
+    - yarn push  
   tags:
     - shared
   only:
     - /dev/
 
-package:test:
+build:test:
   stage: Build
   interruptible: true
   script:
     - yarn --registry https://registry.npmmirror.com
-    - yarn build:test
+    - yarn install -f
+    - yarn build
+    - yarn push  
   tags:
     - shared
   only:
     - /test/
 
-package:prod:
+build:prod:
   stage: Build
   interruptible: true
   script:
     - yarn --registry https://registry.npmmirror.com
-    - yarn build:prod
+    - yarn install -f
+    - yarn build
+    - yarn push  
   tags:
     - shared
   only:
     - /^v/
-
-push:dev:
-  stage: Push
-  interruptible: true
-  script:
-    - docker build -t ${IMG}-dev .
-    - docker push  ${IMG}-dev
-    - docker rmi ${IMG}-dev
-    - echo -e "\e[31m Docker image is here 👉 \e[0m" ${IMG}-dev
-  tags:
-    - shared
-  only:
-    - /dev/
-  dependencies:
-    - package:dev
-
-push:test:
-  stage: Push
-  interruptible: true
-  script:
-    - docker build -t ${IMG}-test .
-    - docker push  ${IMG}-test
-    - docker rmi ${IMG}-test
-    - echo -e "\e[31m Docker image is here 👉 \e[0m" ${IMG}-test
-  tags:
-    - shared
-  only:
-    - /test/
-  dependencies:
-    - package:test
-
-push:prod:
-  stage: Push
-  interruptible: true
-  script:
-    - docker build -t ${IMG}-prod .
-    - docker push  ${IMG}-prod
-    - docker rmi ${IMG}-prod
-    - echo -e "\e[31m Docker image is here 👉 \e[0m" ${IMG}-prod
-  tags:
-    - shared
-  only:
-    - /^v/
-  dependencies:
-    - package:prod
-
-update:dev:
-  stage: Deploy
-  interruptible: true
-  script:
-    - curl -s -X POST --user ${JenkinsUser}:${JenkinsToken}
-      http://10.23.243.182:18080/job/${PROJECT_NAME}/buildWithParameters
-      --data-urlencode "IMAGE=${IMG}-dev"
-      --data-urlencode "ENV=dev"
-  tags:
-    - shared
-  only:
-    - /dev/
-  dependencies:
-    - push:dev
-
-update:test:
-  stage: Deploy
-  interruptible: true
-  script:
-    - curl -s -X POST --user ${JenkinsUser}:${JenkinsToken}
-      http://10.23.243.182:18080/job/${PROJECT_NAME}/buildWithParameters
-      --data-urlencode "IMAGE=${IMG}-test"
-      --data-urlencode "ENV=test"
-  tags:
-    - shared
-  only:
-    - /test/
-  dependencies:
-    - push:test
-
-update:prod:
-  stage: Deploy
-  interruptible: true
-  script:
-    - curl -s -X POST --user ${JenkinsUser}:${JenkinsToken}
-      http://10.23.243.182:18080/job/${PROJECT_NAME}/buildWithParameters
-      --data-urlencode "IMAGE=${IMG}-prod"
-      --data-urlencode "ENV=prod"
-  tags:
-    - shared
-  only:
-    - /^v/
-  dependencies:
-    - push:prod

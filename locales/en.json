@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Home",
+    "web": "Billions Intelligence AI Assistant",
+    "mobile": "Mobile App",
+    "bigData": "Financial Big Data", 
+    "news": "Latest News"
+  },
+  "common": {
+    "aboutUs": "About Us",
+    "language": "English",
+    "applyTrial": "Apply for Trial",
+    "companyName": "Billions Intelligence"
+  },
+  "meta": {
+    "title": "Billions Intelligence - AI-Powered Investment Decisions, Data-Driven Financial Future",
+    "description": "Billions Intelligence provides you with the most timely and comprehensive financial data services, making investment decisions smarter and more precise"
+  },
+  "home": {
+    "heroTitle": "AI-Powered Investment Decisions, Data-Driven Financial Future",
+    "heroDescription": "Billions Intelligence provides you with the most timely and comprehensive financial data services, making investment decisions smarter and more precise",
+    "coreProducts": "Core Products & Services",
+    "intelligentQA": "Intelligent Q&A",
+    "intelligentQADesc": "Advanced deep learning-based intelligent financial Q&A system, providing 7×24 hour professional and accurate answers to all finance-related questions.",
+    "documentTranslation": "Document Translation",
+    "documentTranslationDesc": "Professional financial document translation services supporting multiple languages, ensuring accuracy of technical terms for seamless global communication.",
+    "meetingMinutes": "Meeting Minutes",
+    "meetingMinutesDesc": "Intelligent meeting minutes generation system that automatically identifies key information and provides real-time summaries to enhance decision-making efficiency.",
+    "financialBigData": "Financial Big Data",
+    "financialBigDataDesc": "Comprehensive coverage of domestic and international market data. Domestic data includes macroeconomic indicators, industry analysis, A-shares/Hong Kong stocks. International data primarily covers US stocks, institutional meeting minutes (including buy-side analyst conference call transcripts), SEC filings, etc.",
+    "companyDynamics": "Company News & Technical Strength",
+    "latestNews": "Latest News",
+    "awardsRecognition": "Awards & Recognition",
+    "technicalStrength": "Technical Strength",
+    "news1": "2025-10-31 Billions Intelligence Launches New Generation AI Investment Research Platform",
+    "news2": "2025-09-15 Billions Intelligence Releases Beta Version of AI Investment Research Platform",
+    "news3": "Successfully hosted 2024 FinTech Summit and released industry white paper",
+    "award1": "2024 Best FinTech Award",
+    "award2": "ISO27001 Certification",
+    "tech1": "15 Technical Patents",
+    "tech2": "20+ Software Copyrights",
+    "aiModels": "AI Algorithm Models",
+    "financialDataSources": "Financial Data Sources",
+    "professionalTerms": "Professional Terms",
+    "systemReliability": "System Reliability"
+  },
+  "partners": {
+    "title": "Partners",
+    "brokerage": "Brokerage Research",
+    "publicFunds": "Public Funds",
+    "privateFunds": "Private Funds",
+    "banks": "Banks",
+    "insurance": "Insurance",
+    "asset": "Asset Management",
+    "casesTitle": "Partnership Cases",
+    "case1Title": "Leading Quantitative Private Equity Fund Investment Research Platform",
+    "case1Desc": "Improved data query efficiency by 60% through AI Q&A, achieved automatic multi-language report translation with AI translation accuracy exceeding 95%"
+  },
+  "modal": {
+    "applyTrial": "Apply for Trial",
+    "thankYou": "Thank you for your interest in our product! Click the button below to get contact information",
+    "applyUse": "Apply Now",
+    "name": "Name:",
+    "phone": "Phone:",
+    "mobile": "Mobile:",
+    "email": "Email:",
+    "wechatQR": "WeChat QR Code",
+    "copyPhone": "Copy Mobile Number",
+    "phoneCopied": "Mobile number copied to clipboard",
+    "salesName": "Tingting Li"
+  },
+  "footer": {
+    "companyName": "Billions Intelligence",
+    "companyDescription": "AI-Powered Investment Decisions, Data-Driven Financial Future",
+    "friendlyLinks": "Links",
+    "webPlatform": "Yixin AI Assistant",
+    "mobileApp": "Mobile App",
+    "contactUs": "Contact Us",
+    "customerService": "Customer Service",
+    "businessCooperation": "Business Cooperation",
+    "companyAddress": "Company Address",
+    "address": "Floor 21, Building 2102, Yangguang Riverside South Building, Xuhui District, Shanghai",
+    "followWeChat": "Follow WeChat",
+    "getLatestNews": "Get Latest News",
+    "allRightsReserved": "All Rights Reserved",
+    "icpNumber": "沪ICP备2025142995号-2"
+  },
+  "mobile": {
+    "pageTitle": "Smart Mobile App",
+    "pageSubtitle": "Enjoy AI Financial Services Anytime, Anywhere",
+    "feature1": "7×24 Hour Service",
+    "feature2": "Real-time Data Sync Across Three Platforms (Web/iOS/Android)",
+    "feature3": "Financial-grade Data Encryption Transmission",
+    "downloadTitle": "Scan to Download",
+    "intelligentQA": "Intelligent Q&A",
+    "intelligentQADesc": "Advanced deep learning-based intelligent financial Q&A system, providing 7×24 hour answers to all finance-related questions.",
+    "documentTranslation": "Document Translation",
+    "documentTranslationDesc": "Professional financial document translation services supporting multiple languages, ensuring accuracy of technical terms.",
+    "meetingMinutes": "Meeting Minutes",
+    "meetingMinutesDesc": "Intelligent meeting minutes generation system that automatically identifies key information and provides real-time summaries.",
+    "scrollHint": "← Swipe left and right to see more features"
+  },
+  "about": {
+    "vision": {
+      "title": "Vision",
+      "subtitle": "Let every decision have a better chance",
+      "description": "AI and big data-driven intelligent decision system"
+    },
+    "mission": {
+      "title": "Mission",
+      "subtitle": "AI-Powered Investment Decisions, Data-Driven Financial Future",
+      "description": "Building a new ecosystem of financial technology"
+    },
+    "values": {
+      "title": "Values",
+      "subtitle": "Innovation, Truth, Collaboration",
+      "description": "Continuously exploring cutting-edge technology, pursuing authenticity and reliability"
+    },
+    "team": {
+      "title": "Founding Team",
+      "xuXiaoBo": {
+        "name": "Xu Xiaobo",
+        "title": "Chairman & Founder",
+        "description": "Dual degree in Physics and Economics from Peking University, CFA Level II. Won first place in the National High School Physics Competition Finals. Joined Citadel, a renowned US hedge fund, in 2012 to develop and research quantitative trading strategies, with his team achieving daily US stock trading volume of $10 billion"
+      }
+    },
+    "timeline": {
+      "title": "Milestones",
+      "events": {
+        "founding": {
+          "title": "2025.09 Company Founded",
+          "description": "Billions Intelligence Science was officially established in Shanghai, focusing on the fintech sector"
+        },
+        "product": {
+          "title": "2025.09 AI Investment Research Platform Beta",
+          "description": "Billions Intelligence releases beta version of new generation AI investment research platform"
+        },
+        "launch": {
+          "title": "2025.10 AI Investment Research Platform Launch",
+          "description": "Billions Intelligence launches new generation AI investment research platform"
+        }
+      }
+    }
+  }
+}

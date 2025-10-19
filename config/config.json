@@ -1,0 +1,38 @@
+{
+  "links": {
+    "webPlatform": "https://chat.billionsintelligence.com",
+    "mobileApp": "/mobile"
+  },
+  "partners": [
+    {
+      "i18nKey": "brokerage",
+      "count": 0,
+      "shouldShow": false
+    },
+    {
+      "i18nKey": "publicFunds", 
+      "count": 0,
+      "shouldShow": false
+    },
+    {
+      "i18nKey": "privateFunds",
+      "count": 1,
+      "shouldShow": true
+    },
+    {
+      "i18nKey": "banks",
+      "count": 0,
+      "shouldShow": false
+    },
+    {
+      "i18nKey": "insurance",
+      "count": 0,
+      "shouldShow": false
+    },
+    {
+      "i18nKey": "asset",
+      "count": 0,
+      "shouldShow": false
+    }
+  ]
+}

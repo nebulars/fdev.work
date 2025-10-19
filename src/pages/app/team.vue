@@ -1,5 +1,13 @@
+<style lang="less" scoped>
+.team {
+  height: 100%;
+}
+</style>
+
 <template>
-  <div>TEAM</div>
+  <s-section class="team" :flex="true" justify="center" align="center">
+    <h1>Presents By Qianape Team</h1>
+  </s-section>
 </template>
 
 <script>

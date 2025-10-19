@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "首页",
+    "web": "亿信智能助手",
+    "mobile": "移动端", 
+    "bigData": "金融大数据",
+    "news": "最新动态"
+  },
+  "common": {
+    "aboutUs": "关于我们",
+    "language": "中文",
+    "applyTrial": "申请试用",
+    "companyName": "亿信数科"
+  },
+  "meta": {
+    "title": "亿信数科 - AI赋能投资决策 数据驱动金融未来",
+    "description": "亿信数科为您提供最及时、最全面的金融数据服务，助力投资决策更智能、更精准"
+  },
+  "home": {
+    "heroTitle": "AI赋能投资决策 数据驱动金融未来",
+    "heroDescription": "亿信数科为您提供最及时、最全面的金融数据服务，助力投资决策更智能、更精准",
+    "coreProducts": "核心产品与服务",
+    "intelligentQA": "智能问答",
+    "intelligentQADesc": "基于前沿深度学习的智能金融问答系统，7×24小时为您解答金融全相关问题，提供专业、准确的解答和决策服务。",
+    "documentTranslation": "文件翻译",
+    "documentTranslationDesc": "专业金融文档翻译服务，支持多语言互译，保障专业术语准确性，助力全球投资者实现无障碍沟通。",
+    "meetingMinutes": "会议纪要",
+    "meetingMinutesDesc": "智能会议纪要生成系统，自动识别关键信息，现场实时总结要点，大幅提升投资决策效率。",
+    "financialBigData": "金融大数据",
+    "financialBigDataDesc": "覆盖国内外全市场数据，国内包含宏观、行业、A股/港股；国外主要覆盖美股，境外机构会议纪要（含买方分析师电话会议纪录）、SEC filings文件等",
+    "companyDynamics": "公司动态与技术实力",
+    "latestNews": "最新动态",
+    "awardsRecognition": "获奖与认证",
+    "technicalStrength": "技术实力",
+    "news1": "2025-10-31 亿信数科新一代AI投研平台对外发布",
+    "news2": "2025-09-15 亿信数科发布新一代AI投研平台内测",
+    "news3": "成功举办2024金融科技峰会，发布行业白皮书",
+    "award1": "2024最佳金融科技奖",
+    "award2": "ISO27001认证",
+    "tech1": "15项技术专利",
+    "tech2": "20+软件著作权",
+    "aiModels": "AI算法模型",
+    "financialDataSources": "金融数据源",
+    "professionalTerms": "专业术语",
+    "systemReliability": "系统可用性"
+  },
+  "partners": {
+    "title": "合作伙伴",
+    "brokerage": "券商研究所",
+    "publicFunds": "公募基金",
+    "privateFunds": "私募基金", 
+    "banks": "银行",
+    "insurance": "保险",
+    "asset": "资管",
+    "casesTitle": "合作案例",
+    "case1Title": "某头部量化私募基金投资研究平台",
+    "case1Desc": "通过AI问答提升数据查询效率60%，AI翻译实现多语言报告自动翻译，准确率达95%以上"
+  },
+  "modal": {
+    "applyTrial": "申请试用",
+    "thankYou": "感谢您对我们产品的关注！点击下方按钮获取联系方式",
+    "applyUse": "申请使用",
+    "name": "姓名:",
+    "phone": "电话:",
+    "mobile": "手机:",
+    "email": "邮箱:",
+    "wechatQR": "微信二维码",
+    "copyPhone": "复制手机号",
+    "phoneCopied": "手机号复制到粘贴板",
+    "salesName": "李婷婷"
+  },
+  "footer": {
+    "companyName": "亿信数科",
+    "companyDescription": "AI赋能投资决策 数据驱动金融未来",
+    "friendlyLinks": "友情链接",
+    "webPlatform": "亿信智能助手",
+    "mobileApp": "移动端",
+    "contactUs": "联系我们",
+    "customerService": "客服电话",
+    "businessCooperation": "商务合作",
+    "companyAddress": "公司地址",
+    "address": "上海市徐汇区阳光滨江南楼21层2102",
+    "followWeChat": "关注微信公众号",
+    "getLatestNews": "获取最新资讯",
+    "allRightsReserved": "版权所有",
+    "icpNumber": "沪ICP备2025142995号-2"
+  },
+  "mobile": {
+    "pageTitle": "智能移动端",
+    "pageSubtitle": "随时随地畅享AI金融服务",
+    "feature1": "7×24小时服务",
+    "feature2": "三端数据实时同步 (web/ios/安卓)",
+    "feature3": "金融级数据加密传输",
+    "downloadTitle": "扫码下载",
+    "intelligentQA": "智能问答",
+    "intelligentQADesc": "基于前沿深度学习的智能金融问答系统，7×24小时为您解答金融全相关问题。",
+    "documentTranslation": "文件翻译",
+    "documentTranslationDesc": "专业金融文档翻译服务，支持多语言互译，保障专业术语准确性。",
+    "meetingMinutes": "会议纪要",
+    "meetingMinutesDesc": "智能会议纪要生成系统，自动识别关键信息，现场实时总结要点。",
+    "scrollHint": "← 左右滑动查看更多功能"
+  },
+  "about": {
+    "vision": {
+      "title": "愿景",
+      "subtitle": "让每个决策更有胜算",
+      "description": "基于AI与大数据的智能决策系统"
+    },
+    "mission": {
+      "title": "使命",
+      "subtitle": "AI赋能投资决策 数据驱动金融未来",
+      "description": "构建金融科技新生态"
+    },
+    "values": {
+      "title": "价值观",
+      "subtitle": "创新、求真、协作",
+      "description": "持续探索前沿技术，追求真实可靠"
+    },
+    "team": {
+      "title": "创始团队",
+      "xuXiaoBo": {
+        "name": "徐晓波",
+        "title": "董事长 & 创始人",
+        "description": "北京大学物理、经济双学位，CFAII级。\n高中阶段荣获全国中学生物理竞赛决赛总成绩第一。\n2012年就职美国知名对冲基金Citadel从事量化交易策略的开发和研究，所在小组单日美国股票交易额达100亿美元。"
+      }
+    },
+    "timeline": {
+      "title": "大事记",
+      "events": {
+        "founding": {
+          "title": "2025.09 公司成立",
+          "description": "亿信数科于上海正式成立，专注于金融科技领域"
+        },
+        "product": {
+          "title": "2025.09 AI投研平台内测",
+          "description": "亿信数科发布新一代AI投研平台内测"
+        },
+        "launch": {
+          "title": "2025.10 AI投研平台对外发布",
+          "description": "亿信数科新一代AI投研平台对外发布"
+        }
+      }
+    }
+  }
+}

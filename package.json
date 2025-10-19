@@ -17,14 +17,14 @@
     "swagger": "swagger-typescript-api generate -p http://10.23.217.243:18092/api/v2/api-docs -o ./src/registry/swagger --n index.js --default-as-fetch --js --axios"
   },
   "dependencies": {
-    "@nebulars/forage": "^0.0.47",
-    "@scaff/vite": "^3.7.28",
+    "@nebulars/forage": "^0.2.20",
+    "@scaff/vite": "^3.7.29",
     "ant-design-vue": "^4.2.6",
     "axios": "^1.8.4"
   },
   "devDependencies": {
-    "@scaff/typescript": "^3.7.28",
-    "@scaff/vite-plugin-node": "^3.7.28",
+    "@scaff/typescript": "^3.7.29",
+    "@scaff/vite-plugin-node": "^3.7.29",
     "@vitejs/plugin-vue": "^3.2.0",
     "mockjs": "^1.1.0",
     "postcss-pxtorem": "^6.1.0",

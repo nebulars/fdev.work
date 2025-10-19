@@ -77,28 +77,11 @@
         </template>
 
         <div>
-          <qrcode :size="240" :value="qr_mini">
-            <a-flex vertical justify="center" align="center" gap="middle">
-              <img class="icon" width="64" src="@/assets/icon_wechat.png" />
-              <div>
-                小程序扫码
-                <br />
-                Mini Program
-              </div>
-            </a-flex>
-          </qrcode>
+          <s-qrcode :src="qr_mini" :icon="iconWechat" text="小程序扫码" translate="Mini Program"></s-qrcode>
         </div>
+
         <div>
-          <qrcode :size="240" :value="qr_android">
-            <a-flex vertical justify="center" align="center" gap="middle">
-              <img class="icon" width="64" src="@/assets/icon_android.png" />
-              <div>
-                安卓下载
-                <br />
-                Android Download
-              </div>
-            </a-flex>
-          </qrcode>
+          <s-qrcode :src="qr_android" :icon="iconAndroid" text="安卓下载" translate="Android Download"></s-qrcode>
         </div>
       </a-carousel>
     </s-phone>
@@ -106,11 +89,16 @@
 </template>
 
 <script>
+import iconWechat from '@/assets/icon_wechat.png';
+import iconAndroid from '@/assets/icon_android.png';
+
 export default {
   data() {
     return {
       qr_mini: `https://open.weixin.qq.com/sns/getexpappinfo?appid=wx4dd23f80ad9c9911&path=pages%2Fins%2Fwelcome.html#wechat-redirect`,
       qr_android: `https://oss.rtclouddata.cn/fdev/finqa_android.apk`,
+      iconWechat,
+      iconAndroid,
     };
   },
 
