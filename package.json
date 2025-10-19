@@ -4,7 +4,7 @@
   "author": "joenix",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp docs/index.html docs/404.html",
     "serve": "vite preview",
     "push": "forage oss --prefix site --env none"
   },
