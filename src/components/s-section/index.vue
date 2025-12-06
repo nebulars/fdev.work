@@ -35,6 +35,11 @@ export default {
       type: String,
       default: 'normal',
     },
+
+    gap: {
+      type: Number,
+      default: 0,
+    },
   },
 
   computed: {
@@ -44,6 +49,7 @@ export default {
         flexDirection: this.vertical ? 'column' : 'row',
         justifyContent: this.justify,
         alignItems: this.align,
+        gap: `${this.gap}px`,
       };
     },
   },

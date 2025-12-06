@@ -8,11 +8,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AAvatar: typeof import('ant-design-vue/es')['Avatar']
+    ACard: typeof import('ant-design-vue/es')['Card']
+    ACardMeta: typeof import('ant-design-vue/es')['CardMeta']
     ACarousel: typeof import('ant-design-vue/es')['Carousel']
     AConfigProvider: typeof import('ant-design-vue/es')['ConfigProvider']
     AFlex: typeof import('ant-design-vue/es')['Flex']
     ASpace: typeof import('ant-design-vue/es')['Space']
+    LeftCircleOutlined: typeof import('@ant-design/icons-vue')['LeftCircleOutlined']
     LeftOutlined: typeof import('@ant-design/icons-vue')['LeftOutlined']
+    RightCircleOutlined: typeof import('@ant-design/icons-vue')['RightCircleOutlined']
     RightOutlined: typeof import('@ant-design/icons-vue')['RightOutlined']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -22,5 +27,6 @@ declare module 'vue' {
     SQrcode: typeof import('./src/components/s-qrcode/index.vue')['default']
     SSection: typeof import('./src/components/s-section/index.vue')['default']
     SVideo: typeof import('./src/components/s-video/index.vue')['default']
+    UserOutlined: typeof import('@ant-design/icons-vue')['UserOutlined']
   }
 }

@@ -80,9 +80,19 @@ nav {
 
 .logo {
   height: 36px;
+  text-decoration: none;
 
   img {
     height: 100%;
+    filter: brightness(100);
+  }
+
+  i {
+    top: -1px;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    position: relative;
   }
 }
 </style>
@@ -91,7 +101,8 @@ nav {
   <header>
     <s-section :flex="true" justify="space-between" align="center">
       <a class="logo" href="/">
-        <img src="@/assets/name.png" />
+        <img src="@/assets/logo.png" />
+        <i>前猿科技</i>
       </a>
 
       <nav>

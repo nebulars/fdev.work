@@ -28,6 +28,11 @@
     height: 360px;
   }
 
+  &-item {
+    display: flex !important;
+    justify-content: center;
+  }
+
   &-prev,
   &-next {
     width: 32px;
@@ -44,6 +49,10 @@
 
     &:hover {
       opacity: 1;
+    }
+
+    &:before {
+      display: none;
     }
   }
 
@@ -76,11 +85,11 @@
           </div>
         </template>
 
-        <div>
+        <div class="carousel-item">
           <s-qrcode :src="qr_mini" :icon="iconWechat" text="小程序扫码" translate="Mini Program"></s-qrcode>
         </div>
 
-        <div>
+        <div class="carousel-item">
           <s-qrcode :src="qr_android" :icon="iconAndroid" text="安卓下载" translate="Android Download"></s-qrcode>
         </div>
       </a-carousel>
@@ -105,8 +114,43 @@ export default {
   mounted() {
     this.$nextTick(() => {
       const { typeit: target } = this.$refs;
-      const html = `欢迎使用 FinQA 智能问答<br />一款专注于提供金融行研领域的智能问答系统`;
-      this.$util.print(target, html, { speed: 100, loop: true }).pause(5000).empty();
+
+      const html = [
+        // 1
+        `前猿科技<br />一支专注于技术落地的小团队`,
+        // 2
+        `　我们擅长：<br />・小程序、APP、跨端研发<br />・网站建设、软件定制、系统集成<br />・AI 私域、RAG 检索、大模型接入`,
+        // 3
+        `　引以为傲的数据：<br />・5年 客户 OD 经验<br />・23个 To B 成功案例<br />・115个 交付案例<br />・42% 企业复购率`,
+        // 4
+        `准备好为您的业务提速了吗？`,
+      ];
+
+      this.$util
+        // 1
+        .print(target, html[0], { speed: 100, loop: true })
+        .pause(5000)
+        .empty()
+
+        // 2
+        .type(html[1])
+        .pause(5000)
+        .empty()
+
+        // 3
+        .type(html[2])
+        .pause(5000)
+        .empty()
+
+        // 4
+        .type(html[3])
+        .pause(5000)
+        .empty()
+
+        // Trigger
+        .go();
+
+      this.$util.print(target, `・小程序、APP、跨端研发<br />・网站建设、软件定制、系统集成<br />・AI 私域、RAG 搜索、模型接入`, { speed: 100, loop: true }).pause(5000).empty();
     });
   },
 };

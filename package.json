@@ -9,7 +9,7 @@
     "push": "forage oss --prefix site --env none"
   },
   "dependencies": {
-    "@nebulars/forage": "^0.2.20",
+    "@nebulars/forage": "^0.3.46",
     "@scaff/vite": "^3.7.29",
     "ant-design-vue": "^4.2.6",
     "axios": "^1.8.4"

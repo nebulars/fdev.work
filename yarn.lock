@@ -1583,36 +1583,44 @@
     "@napi-rs/canvas-linux-x64-musl" "0.1.80"
     "@napi-rs/canvas-win32-x64-msvc" "0.1.80"
 
-"@nebulars/animation@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/animation/-/animation-0.2.100.tgz#0fba7459174a4b74db6f67f114cecfdd7e792788"
-  integrity sha512-/o0hkCBZhW8Ciq2nSqbgjuaNzmm4VCGXFMNVgWc3or2+Jxbja9b/FFYpAUw8IRsKdFEB+okACBkEKkMsTKIHiQ==
+"@nebulars/animation@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/animation/-/animation-0.3.46.tgz#0dc28b46e1deb4802132725d3ddefbf771d53e26"
+  integrity sha512-Aa9Gc92eg1d50HFv2O4Y69pw0aK3d3V+xuWkyLH+YhIu+kDo0j13LyJZlDjbdxY8HE3612C3F4wVaz58cL2ELA==
   dependencies:
     animate.css "^4.1.1"
 
-"@nebulars/audio@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/audio/-/audio-0.2.100.tgz#59661f1279d35044b44f990698ff3786e80ede53"
-  integrity sha512-5f0WTdmrRMOdexCeDyFOHGiJKg2obousmOb4cg1p4oqQISqyL/xD5ykHKSZOvv0TEPM9LHl99kh5Z0TaaRQPbw==
+"@nebulars/audio@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/audio/-/audio-0.3.46.tgz#7e406a6011bad4a33eeeca1358cbd2615e95bca7"
+  integrity sha512-6oVZHiO5oEjE7ShzMLvkIJDS4QKdqYWwq+8Pkb4jEjOdESCSxqdrrM74xBczdMXbbEaQS2vU0c22CfySjWzpAA==
   dependencies:
     howler "^2.2.4"
 
-"@nebulars/chatree@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/chatree/-/chatree-0.2.100.tgz#3a32c45d17cb84f612f705bbd1537420846fe7e5"
-  integrity sha512-Iuv8QyChHcvwgSs+n9E+jvTWUPJIHSVDTcvjpcIgDn1e+p+ZPR/pX4fgmXqUljD4ViNdBpSy16nWWsyAP5wgHw==
+"@nebulars/base64@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/base64/-/base64-0.3.46.tgz#20dadd252f93dd804b0e18cf2a7a1a3f9dd16a84"
+  integrity sha512-nMGGHdrQ1gwn81MCwhuuZEVuCRa40Lu0TkKyxDfz4nEdQDZVgPx7G748RKWF3e8Zyb7jL/XuzdRvRsrLzD3Xug==
+  dependencies:
+    js-base64 "^3.7.8"
+    lz-string "^1.5.0"
 
-"@nebulars/clip@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/clip/-/clip-0.2.100.tgz#aa3de3e089a153d8d5f7641e9058d070e04651e2"
-  integrity sha512-We/EzAByo0E/DkV9LraRlOQ+++S0R5K6h1LndNQ5bzriYG5q27G21RWU4nD8wHbmkgn595nc5zI4/hsga4vDMA==
+"@nebulars/chatree@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/chatree/-/chatree-0.3.46.tgz#5b625278668997adf2eb4a2d376d6c24a96b6967"
+  integrity sha512-ZF/ZN0XaMNN227aGi42EUEazz4CDTMgTYH/iHRX2PP7QMJcfaoiUjuESQ/pmHn39a97MKZ6TFaojpo1A4eQK6g==
+
+"@nebulars/clip@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/clip/-/clip-0.3.46.tgz#043ff47e1c327d54ee85b1ad306c28b39e40efa2"
+  integrity sha512-P1ickWonknmxMHDjsDaSg5foUAsWtAGrWFtbYcH+skwfbmGBzOtybdaqgBOId2WxGAQp8u7bAp0STnkc1pt4eA==
   dependencies:
     vue3-clipboard "^1.0.0"
 
-"@nebulars/closest@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/closest/-/closest-0.2.100.tgz#7d7056d05ab1cfe1b813d61547f7571c626bf270"
-  integrity sha512-jOX7ix84uttLRD3i0pF/5KLgdeFji2X1nXyLA14dpquc7ek6G0Vtx9uqj/IrCsS8ou7jwyR4BLU5Z6tPDKQ7pw==
+"@nebulars/closest@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/closest/-/closest-0.3.46.tgz#d26639adc84a9435d5960fccdfd0de8007082751"
+  integrity sha512-Zy2239L4g00HVT3sqAnUcBeBD4PDjsK397ovQl0E42Qwk6HlFSyXHKhVk+/pmZG7DoiBirMx0k/JTuLrzXG58w==
   dependencies:
     closest-find "^2.0.1"
 
@@ -1639,107 +1647,120 @@
     undici "^7.13.0"
     vite "^4.5.13"
 
-"@nebulars/copy@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/copy/-/copy-0.2.100.tgz#910ebbc91194a24c7ce34b5d81b10c8a989eff45"
-  integrity sha512-kexibSj5HxPKgGxoZYNyY/TKPpkD44TSsqw7ngCSKf3ocFbgn+v6hGU3n8vG7zTWaNnSsLcNu4sIC9R/N7JRpg==
+"@nebulars/copy@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/copy/-/copy-0.3.46.tgz#622eca4ad3b9ee276dca3fedeb754545a1eaf28d"
+  integrity sha512-1cDgFv7EbTuvyHLZTlJZt4Wzfz9U2n+YkN3Fni5rGSs9gnU2a6qG36zPOaaFJvzN4s4I3DwkEGGpJFPymIRS4g==
 
-"@nebulars/deepfind@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/deepfind/-/deepfind-0.2.100.tgz#acdd92412cf8ffcf2a940a356adf74d0e2ed1ee2"
-  integrity sha512-XQE6cJGrbevp3z+/zJC8FEEG0Vdagfeo/DPtn5AsPxTsacPiYQEknqnh3ESyXQ7XqmY5r3OQ0fBe4zeSeYCxUw==
+"@nebulars/deepfind@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/deepfind/-/deepfind-0.3.46.tgz#7dd9d3944c2f11b807b9a03b66ae02127affe3f3"
+  integrity sha512-HF2RbxITzkGgPnlpfScTYZCFJBoIKdCH4zcmYusUfulPm7eNv6U1quNmb//OoUYIh0/WC6CVw3AoZb4eNFVFpA==
 
-"@nebulars/dev@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/dev/-/dev-0.2.100.tgz#4c5a88b660a285c1601218b204f57c5d7a14cfbb"
-  integrity sha512-ds5ABhCB7pi+awW/9uvhWi6P1sCadLln4ZguBNnwFHofP5goraFYn+ec7yWxDUV9YfHGf7cNlIUlxyPtmxlnqw==
+"@nebulars/dev@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/dev/-/dev-0.3.46.tgz#d8c1222cea1db189e6f2f73195099cbf339e6763"
+  integrity sha512-8vlaZelE1BrG1wVjLGubc3CCIvoPSLK5XvT1xqciaedF4utSNTVB3F60g3xXqX8Zy88ANbx6GOW9tJSL8SKG/g==
 
-"@nebulars/dom@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/dom/-/dom-0.2.100.tgz#2f97f7310946c6198cf3f43d67ac01ddf289644d"
-  integrity sha512-u1VDiVjWmvrhZ8i4JrjYVLg0Pc6Om2DE29UUSX/HNTrgmcZiqB01h6dbbmqa/3+RIgjiivx6NM6KasLRGMggOQ==
+"@nebulars/dom@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/dom/-/dom-0.3.46.tgz#cb7e9f997486b43aa05e9ab54c60ec45edc2918d"
+  integrity sha512-jDW3qQytb4wEk+INIKecoqjuB5t57Jv/FzSJ0u2Xg89FS0NEOoCcBBum5TTuyhoA6BXfOtygm5rcVXXW5lBkXQ==
 
-"@nebulars/downloader@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/downloader/-/downloader-0.2.100.tgz#ae3c567fb009421e61faf112975b175f4ea55945"
-  integrity sha512-bSAfNRap75H6R2p4K7+tfSHvge2UG09AGyo4Mk5UBp5mO3HkQqFm2HLbxX/u6GskbsdErBThxymHrvL9aHmjUQ==
+"@nebulars/downloader@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/downloader/-/downloader-0.3.46.tgz#f84e583e6a333efec59cead60d08e2f87612524f"
+  integrity sha512-vr8pQGQwdMjw21MBBvsnGp6iB2ECKVvlnPjIj/gNvJL/2WVhsCodBqQqBvdvBzonu7gN9/JUs7OOHDqpCNJLFA==
 
-"@nebulars/draggable@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/draggable/-/draggable-0.2.100.tgz#6b00948a26c544c0d6489577685269f1c8d7906e"
-  integrity sha512-BppfarFYmo84K9yk7KiB2k/N8sGwgjfJ4/5DYIrFp3SdsRNtIxaCcwdZD+kdytfjTHLU9mNyZ5rjclecUb0hQA==
+"@nebulars/draggable@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/draggable/-/draggable-0.3.46.tgz#5ad4600e691efa23dc5d4b49bfa52c18a84e2a02"
+  integrity sha512-vdadA2rg5x+KlqaPMk7vwJi2+wyntzF3/qQ+gdUzKmocwfEy3d4Lf1T5JTGh3Pmpef0L28j+a8kbjAXWIDPVPA==
   dependencies:
     vuedraggable "^4.1.0"
 
-"@nebulars/env@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/env/-/env-0.2.100.tgz#52d6207178d1bd61966014480cc29bd50e38b6d7"
-  integrity sha512-6QRGVh2CYIEjq8hYJoxsRy4/acJLgaDa8z7va5yExyBahydtctoWqaHJmuonqRteEobF4/dW00BfekteYbvYxQ==
+"@nebulars/env@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/env/-/env-0.3.46.tgz#775f2557b502b92d498617913205d3ab2a6837f8"
+  integrity sha512-9+ZCKSMaVFagj98Y39qjqfhb8+iApUm41cTHu9PqWL2DYYPfcUZG/06wUw6IxyeSlOu42aVszvaf5MHe51NYSg==
 
-"@nebulars/forage@^0.2.20":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/forage/-/forage-0.2.100.tgz#b36bf6a74734c3ea6ed6c35b53eb3b7dda1700ec"
-  integrity sha512-BI7rpbzJemTi127WMoiK249P0y5SM1iVhv155CZjIdy43mc+pw6ndAsCNqpRE1RjYSQbgtl8zh/GFBDrfyzEeQ==
+"@nebulars/forage@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/forage/-/forage-0.3.46.tgz#f5853e9a2c87a07e7f2987475ffab41fa7b56585"
+  integrity sha512-6Qx/YmbkJ1fjm2vKgorHSkMt/fb53ugfK6rMXUu/uIWu4144GgfDyzxbJ04W/aqy3aWsjNXfWq2cp4QAXn2Q0A==
   dependencies:
-    "@nebulars/animation" "^0.2.100"
-    "@nebulars/audio" "^0.2.100"
-    "@nebulars/chatree" "^0.2.100"
-    "@nebulars/clip" "^0.2.100"
-    "@nebulars/closest" "^0.2.100"
-    "@nebulars/copy" "^0.2.100"
-    "@nebulars/deepfind" "^0.2.100"
-    "@nebulars/dev" "^0.2.100"
-    "@nebulars/dom" "^0.2.100"
-    "@nebulars/downloader" "^0.2.100"
-    "@nebulars/draggable" "^0.2.100"
-    "@nebulars/env" "^0.2.100"
-    "@nebulars/json" "^0.2.100"
-    "@nebulars/kitchen" "^0.2.100"
-    "@nebulars/launch" "^0.2.100"
-    "@nebulars/loader" "^0.2.100"
-    "@nebulars/markdown" "^0.2.100"
-    "@nebulars/md5" "^0.2.100"
-    "@nebulars/message" "^0.2.100"
-    "@nebulars/mp" "^0.2.100"
-    "@nebulars/pdf" "^0.2.100"
-    "@nebulars/polling" "^0.2.100"
-    "@nebulars/qrcode" "^0.2.100"
-    "@nebulars/routing" "^0.2.100"
-    "@nebulars/sse" "^0.2.100"
+    "@nebulars/animation" "^0.3.46"
+    "@nebulars/audio" "^0.3.46"
+    "@nebulars/base64" "^0.3.46"
+    "@nebulars/chatree" "^0.3.46"
+    "@nebulars/clip" "^0.3.46"
+    "@nebulars/closest" "^0.3.46"
+    "@nebulars/copy" "^0.3.46"
+    "@nebulars/deepfind" "^0.3.46"
+    "@nebulars/dev" "^0.3.46"
+    "@nebulars/dom" "^0.3.46"
+    "@nebulars/downloader" "^0.3.46"
+    "@nebulars/draggable" "^0.3.46"
+    "@nebulars/env" "^0.3.46"
+    "@nebulars/horizontal" "^0.3.46"
+    "@nebulars/json" "^0.3.46"
+    "@nebulars/kitchen" "^0.3.46"
+    "@nebulars/launch" "^0.3.46"
+    "@nebulars/loader" "^0.3.46"
+    "@nebulars/markdown" "^0.3.46"
+    "@nebulars/md5" "^0.3.46"
+    "@nebulars/message" "^0.3.46"
+    "@nebulars/mines" "^0.3.46"
+    "@nebulars/mp" "^0.3.46"
+    "@nebulars/observer" "^0.3.46"
+    "@nebulars/ops" "^0.3.46"
+    "@nebulars/path" "^0.3.46"
+    "@nebulars/pdf" "^0.3.46"
+    "@nebulars/polling" "^0.3.46"
+    "@nebulars/qrcode" "^0.3.46"
+    "@nebulars/routing" "^0.3.46"
+    "@nebulars/sse" "^0.3.46"
     "@nebulars/stable" "^0.1.1"
-    "@nebulars/storage" "^0.2.100"
-    "@nebulars/supre" "^0.2.100"
-    "@nebulars/swagger" "^0.2.100"
-    "@nebulars/thintree" "^0.2.100"
-    "@nebulars/time" "^0.2.100"
-    "@nebulars/tolerance" "^0.2.100"
-    "@nebulars/transition" "^0.2.100"
-    "@nebulars/url" "^0.2.100"
-    "@nebulars/uuid" "^0.2.100"
-    "@nebulars/variables" "^0.2.100"
-    "@nebulars/webcom" "^0.2.100"
+    "@nebulars/storage" "^0.3.46"
+    "@nebulars/supre" "^0.3.46"
+    "@nebulars/swagger" "^0.3.46"
+    "@nebulars/thintree" "^0.3.46"
+    "@nebulars/time" "^0.3.46"
+    "@nebulars/tolerance" "^0.3.46"
+    "@nebulars/transition" "^0.3.46"
+    "@nebulars/url" "^0.3.46"
+    "@nebulars/uuid" "^0.3.46"
+    "@nebulars/variables" "^0.3.46"
+    "@nebulars/webcom" "^0.3.46"
 
-"@nebulars/json@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/json/-/json-0.2.100.tgz#ee46d96a81d00c3f7c5e79a540958fc001bd9220"
-  integrity sha512-FtLFVHfYUcdl+Zaydm3eMbp9btm3Mf97kNytb+3mrBmzsuJVN0TqHpV5hDj4kdfy8sSrlBuAx5qRrqOQaXwRJw==
+"@nebulars/horizontal@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/horizontal/-/horizontal-0.3.46.tgz#817981ce45c6cb41d4eafbd4ee2ed53d92136560"
+  integrity sha512-W2NwkjsMTkuKqQBgV7jhRvN+pRF6OzaRobusF49RERPJKJ36wfrW9NhOMZnZ58P4i3h4hlIrbIjoMFM57pFRfA==
+  dependencies:
+    vue-horizontal "^1.0.2"
 
-"@nebulars/kitchen@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/kitchen/-/kitchen-0.2.100.tgz#c9c82e464983d5dd96496ed38a235895c06e9cad"
-  integrity sha512-DvUL/d6IIYuqvJ1TIi8N8fRt5YpM2A4z2VsflmWdAQYjp79K3+0zhDCxORfZHRe4z0AnYO/NY3tFnXT2pqYjlg==
+"@nebulars/json@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/json/-/json-0.3.46.tgz#84e8c5712db1ad71fb359997b82355a96a7f710d"
+  integrity sha512-ETybA7AIsSiPXeZl49se4tb+QMgAP2pkac5LJNzWR2cbLb7zqml8Bd/nm47IY8kRXIF+t1UTtWry5cHKCrpzKg==
 
-"@nebulars/launch@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/launch/-/launch-0.2.100.tgz#fde077d4d797567ee4e95dd83ee2b9102ea696c9"
-  integrity sha512-1jcLvPk+a1vpXJRa4mM+NSiW3f/60lVWP2J82M3NCAUGPvpE6WXB1kMMzmMFoTO/gydrNZlc3A+7+t9siB04WA==
+"@nebulars/kitchen@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/kitchen/-/kitchen-0.3.46.tgz#ede62c51cb4e2bccd9bc554029a0e896bb8ec6b3"
+  integrity sha512-bO02UZkWUjnxCaNyGNH+VL8fQQbCh0NgCaoPqj8hJfkA+3Vyjcu3CquC/Ww0s3vjXJpompm9LkhwrG+RXx8kRA==
+
+"@nebulars/launch@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/launch/-/launch-0.3.46.tgz#fdfb529045961fbdaefaaf538bcb750b0ee1d7aa"
+  integrity sha512-iV4oZJE4ZukR4ZmRE9Vr4p2xptcarG7dQAcnsq1spg4ikvRY0VNkRtILhQn/yA28CBXMQOG6Xr04g0gTNOatUA==
   dependencies:
     js-base64 "^3.7.8"
 
-"@nebulars/loader@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/loader/-/loader-0.2.100.tgz#bfd7f62c2b8ae7f74f0781c5910d5d33c2e9173c"
-  integrity sha512-TxI9U/JuodnGbuIDGlO9iSbMXwgJOdjPmgZ9NCN0lTaOp9ykpfAYJfVX/OHDf/UZ7gWK8wYZQoIWASP8NNsWNg==
+"@nebulars/loader@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/loader/-/loader-0.3.46.tgz#41df284f10332d83d222749b2e796291cc99facd"
+  integrity sha512-OCj2MwPv7inJ3REZO+yZ0QHtTFhoHLxE8I+K0jnNJI7Y+MBs3vLpbrKuFpy3ebxiFcXQi3qEK+ptinnqYFHZ9A==
 
 "@nebulars/markdown-sticky-table@^0.2.84":
   version "0.2.84"
@@ -1749,10 +1770,10 @@
     github-markdown-css "^5.8.1"
     markdown-it "^13.0.1"
 
-"@nebulars/markdown@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/markdown/-/markdown-0.2.100.tgz#3ae65e82d27a4e5b3f7abe0d0220f0f20bc506cb"
-  integrity sha512-kuN2xUCImD0UAMW96OrqvGezJadR5fddcsM9EkXUiqs/E7FkFZ7E1ehOSiBH9BXon0cS5e5OjGYemRTj3fHaKQ==
+"@nebulars/markdown@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/markdown/-/markdown-0.3.46.tgz#540c7ad75ee8bbacb0df048f9f50e575e56a3284"
+  integrity sha512-2Ei4Pe+/rgaSugT5lXaDKzUsX5cZUbWWHgQykbh4DmUKfj2trT+uxnzszQ7x/DSebwGH+iPfOetJrfJMRq5bnA==
   dependencies:
     "@mdit/plugin-katex" "^0.16.7"
     "@nebulars/markdown-sticky-table" "^0.2.84"
@@ -1763,60 +1784,86 @@
     markdown-it-mathjax3 "^4.3.2"
     typeit "^8.8.7"
 
-"@nebulars/md5@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/md5/-/md5-0.2.100.tgz#681edabfc578a00c7b9aad271b52f25789ad3121"
-  integrity sha512-0q++XGAv7aIV3kNzXmklk5z+eoBqRMk4Ale82xPaCgngGXNp0+CfNu3IWwUMv1SqqEziFIA3FGcF1caNCU6JHg==
+"@nebulars/md5@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/md5/-/md5-0.3.46.tgz#dc94910a7a54f965df4f7c23069982ecd41e6cc5"
+  integrity sha512-cBTfMuL4WVg24Y7jJLT6dOSwHW+IaTUmhU3DwXnhSb52Z8Afa5Cc/sqKKI6pmx0u4I3I2lEJFX0yTvtwJQHeTw==
   dependencies:
     spark-md5 "^3.0.2"
 
-"@nebulars/message@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/message/-/message-0.2.100.tgz#19c575fc35fb5f4e74281123ff681a0accb3101c"
-  integrity sha512-2alN9qGxP7jbtVUsTbfh27WTsRHKQSPphlXvN/+pzFLNtJNPyukGUqanGK5rGkYd3+gMtpzmInAb5D7qRwkWHw==
+"@nebulars/message@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/message/-/message-0.3.46.tgz#bfc2baed15c8e6ae74a204e952f8022892c1794b"
+  integrity sha512-+RIRtaaZokQ1QNi2Lf4qZFfT8nGald6bxoT3vkU/YK0V+nzpnfeZjjo42u9vYF91b1z1lYL+StUNKzapK0ciDQ==
   dependencies:
     post-bridge "^2.1.3"
 
-"@nebulars/mp@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/mp/-/mp-0.2.100.tgz#f5c0e792680fbbb05191b130ca7cabd0e6bacaee"
-  integrity sha512-CYHyxC7TzQflUTtVQBi7kr0oVUQAtlq6n8dB6HOWckn27mDQz5WEnawHbAO7n1Smh00cyywcvyzgvqa3XXlYXQ==
+"@nebulars/mines@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/mines/-/mines-0.3.46.tgz#b4ec0ecc73fdbdd90cdd682c7fcfcaa076d269ec"
+  integrity sha512-ZpTmYYnn6W3228DXoistV/vf06fMudi3hhpUbATbtvElyl7+roFk3vUTJUQcToy/BZxldDq5fhs1IihBRfb3Ew==
+  dependencies:
+    mime-types "^3.0.1"
 
-"@nebulars/pdf@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/pdf/-/pdf-0.2.100.tgz#ce5c6ef8df9d9921900bf1c4bafe91bfd168508c"
-  integrity sha512-K7tEq3gGdgmrTgDDCTKQlNZLnS6Zrbs7rRiNkDsaZFE6D65QU3IFmFjdj7DSCyN23eqnS7gvvWSQKJFIpo0bbg==
+"@nebulars/mp@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/mp/-/mp-0.3.46.tgz#d6392d3da513e7eafc3150c76e8c946ce9eb8c5c"
+  integrity sha512-Z755Hev8YFnCfzm2pOHzfi9U6NB+IXH5QtZSjgyZAsvm6uEV/qQwlGKkm2x0mSCu1AaFFY9xvPGF7ZSVJ+EDFg==
+
+"@nebulars/observer@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/observer/-/observer-0.3.46.tgz#fda69066d5865c38f7fd788d8273a079e53adb94"
+  integrity sha512-xxOlEjoyogLpZgrXOvvQnxtDSDN8Z0PJbktt+uIyp4vHZQoroHVrs4EMuztlrbT8c4Q6xkxQZkOxEPdlqkzvIw==
+
+"@nebulars/ops@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/ops/-/ops-0.3.46.tgz#81f280425f1d04d624135e110f41bd5462d3277e"
+  integrity sha512-QDxGJhMrtu3DjjLdpzOLdB0ETjChfqEAMX9dI2vF16bDzbhcj7QhRgxtl+8KUh1pKBaea+/C2B1JDu5cNlk2bQ==
+  dependencies:
+    posthog-js "^1.290.0"
+
+"@nebulars/path@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/path/-/path-0.3.46.tgz#1b74bc5a1196cc1dc066c254c6c0f1d608111f37"
+  integrity sha512-DlH/kCgNlcAoW+TpM4Peo0mjWjQhcvzLx1n5tO04J5IsaeYLBzn4Qt5ARa6b8fIyn8LYn2jyV+tVxD5Na00shA==
+  dependencies:
+    path-browserify "^1.0.1"
+
+"@nebulars/pdf@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/pdf/-/pdf-0.3.46.tgz#4fb97e9d2d38d71cc2d588e546dacd8791ece09a"
+  integrity sha512-Yc9qdL2ix4CUnqBobXl75HX7ZMc78N8PjDmCNkCLXfgH7iLQQ9IPYDqM4Q9/OZ1oefNSMlRJmaUuHr/HqLcAGA==
   dependencies:
     "@tato30/vue-pdf" "^1.11.4"
     vue-pdf-simple "^0.0.7"
 
-"@nebulars/polling@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/polling/-/polling-0.2.100.tgz#bf8450e1676f2809028e55444e93ed6cfcafa915"
-  integrity sha512-Ftp+CIxMgA9Fkpi6MVkegoLZSNCZGjP+Dn5SpAFpU3UTr/3hLALob10sbfM6zlOx8sDlZljoDFmjEUDtW2n59A==
+"@nebulars/polling@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/polling/-/polling-0.3.46.tgz#82458cb8f0a8d3250ef8466a023484c9581afeac"
+  integrity sha512-lsWolYux/wGd2KvqXY4o37L9IwpRRtYKF5CrNiKQEwS8Dwei/qDpRhS/t0QDQRU1LdSxWd+lwtFsU9T5S6Aq5g==
   dependencies:
-    "@nebulars/kitchen" "^0.2.100"
+    "@nebulars/kitchen" "^0.3.46"
 
-"@nebulars/qrcode@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/qrcode/-/qrcode-0.2.100.tgz#ad122f4eb4b80f570284f8fe96d533f407166a49"
-  integrity sha512-o5Qj6d+8NgVYhCj08z16dN+hExcaoppsDYpt91ID8tiKNSH6ep9TDjMT/UxbeKMBM6zyMGcdzoqpzi7AN3J91g==
+"@nebulars/qrcode@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/qrcode/-/qrcode-0.3.46.tgz#fb717c6688b8133fd859b44e9afeacf349b42081"
+  integrity sha512-8Ic97eJLhwL1fdycElJFWin5OAPMcjIHEcnltZ1WxapEl5sT396+hUHbvcndhem7/AAwuZE9iiiax5F6hMBScw==
   dependencies:
     esm "^3.2.25"
     qrcode "^1.5.4"
     qrcode.vue "^3.6.0"
 
-"@nebulars/routing@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/routing/-/routing-0.2.100.tgz#33094772fd6d12d7fa619d3854e2525ffe727e8e"
-  integrity sha512-NCwHQptAO8u1QB94ktkfPuAppLxhEmbBXQ74mmqnvAVzA1jvu4NQrRp0OPaf66ZBBbf5DguFs3Qks2hjtCmtNQ==
+"@nebulars/routing@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/routing/-/routing-0.3.46.tgz#edf2e1b2f91174c3025a1e92e262fc816d921f5b"
+  integrity sha512-LLFuF+G0FWYRqGj1NEb6VoIN7zorccfeBSXiUYWaZD2jmlkw4rv4GJ1DtfsS0lCkKzmIEKcKJ036ABlmuCbrGQ==
 
-"@nebulars/sse@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/sse/-/sse-0.2.100.tgz#87d195c2908066fcc44cdc3df102b63fc888e206"
-  integrity sha512-99oLdKbV/eM2MtrDfbAevQWry8lnEXGWWbUcUEMRS7vci0G9PrJQf/TKOKNsz4fe/zBNlye/Md4NbJ7OblVk/g==
+"@nebulars/sse@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/sse/-/sse-0.3.46.tgz#e8d3c001fe986d60e97f3701d1e20ab06d8c744a"
+  integrity sha512-wMMsfp2VpxCQy3p26CS1HOK3IoVxpLO587sAPuqAANeuen6F0UF1kQZ6gEI2SqUbb016xW4LTd2xhTYBBiUD1A==
   dependencies:
-    "@nebulars/json" "^0.2.100"
+    "@nebulars/json" "^0.3.46"
 
 "@nebulars/stable@^0.1.1":
   version "0.1.1"
@@ -1827,75 +1874,75 @@
     crypto-js "^4.2.0"
     js-base64 "^3.7.7"
 
-"@nebulars/storage@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/storage/-/storage-0.2.100.tgz#5b377363228bb2ced534ea04e1c23bd8760cb97f"
-  integrity sha512-RQAELirqcCdTPapjYnq03vLHCgVSoAhnYrVHEB3Lk5xgw/Jn2LRN7h+Ecs47IOvCuIWbGZP6MEAEbpV23emstQ==
+"@nebulars/storage@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/storage/-/storage-0.3.46.tgz#296a8ceb4402a4a9fe8e0fc5e0fddf909f769aa3"
+  integrity sha512-C5Dh5wTMeKyulJakA2k96rZV+zkjLNM3REpEu3NYeAU641Q/dW6vAhpGaYHXfpwRhCwwJ58J54d9a9PRFNtMpA==
   dependencies:
     localforage "^1.10.0"
 
-"@nebulars/supre@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/supre/-/supre-0.2.100.tgz#a44e46c6375beb4715a83853df7c87eec9b9626d"
-  integrity sha512-+FYMEHkzRVWmZUQ9tOBR2v9K/fKWCQ4RE7RmoWnk0OwN46kG5POcqJsTdu8y0eomqpSNLyUgAryhfg6osRXZLQ==
+"@nebulars/supre@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/supre/-/supre-0.3.46.tgz#8b5de7cdfb730dced19cb12088180b52c39440eb"
+  integrity sha512-VKEjVrHPio94Bwn9rwAVPC9iUGtQo0WAL4v5CbtMMMYEtA+dE1J6VvaLgkjTy1hA9VPxCEmctY1kKe0p7PUBAA==
   dependencies:
-    "@nebulars/uuid" "^0.2.100"
+    "@nebulars/uuid" "^0.3.46"
 
-"@nebulars/swagger@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/swagger/-/swagger-0.2.100.tgz#784747d5a0e3311e83c2e0fecba88b122a410401"
-  integrity sha512-XJXoal/4ZGWRurxxeWOEP4+seSLw5Sibw6VVo03FDokKm4/mI9nQ/2L9n3IEoMuO4fmjFYz8J5UQSEc/Hl2ixQ==
+"@nebulars/swagger@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/swagger/-/swagger-0.3.46.tgz#73be237de2204e33197c9f96303d7365bb568abd"
+  integrity sha512-y9fRiSv/oycqNfy2ckSucSXGtSS0V5UnnkWyFfgB4B5r6Jh6VpydaTIfQedAz2ou1wa6dC1XEDjdmJGs+081/A==
   dependencies:
     axios "^1.8.4"
 
-"@nebulars/thintree@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/thintree/-/thintree-0.2.100.tgz#ae7d9baa608e3a67db16cc01a8a746ae16a8b9c0"
-  integrity sha512-9RbhQftR/ntAxz4aq2zLpt8ikNP68BnXKTT50Xqq7njl/lwRa8OkIq5JzehvqeRSGQKfY++sL5/wEySH+jEg7Q==
+"@nebulars/thintree@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/thintree/-/thintree-0.3.46.tgz#16c2b8836806addee1eac6fe3fb8f23515723e98"
+  integrity sha512-08NWSHks3xVkbCcLePRpArvTsdT5eG9YOLUw5MTWN0ekHY2EO6qzt1FhVjP3H5IgdjDXmo1FEXgKTdYcJ64Z5A==
   dependencies:
-    "@nebulars/json" "^0.2.100"
-    "@nebulars/time" "^0.2.100"
+    "@nebulars/json" "^0.3.46"
+    "@nebulars/time" "^0.3.46"
     tree-visit "^0.5.1"
 
-"@nebulars/time@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/time/-/time-0.2.100.tgz#bf6c19dbcda76aed44cb1ed7031a732c7841ab0d"
-  integrity sha512-SfoTSYKROyo4M/Kx+o/ywBbbS+bM/yVg408XxbVBVh4lDRCxR6ctyw0ru1rByhz9BxxTDMQwRDKFhZFyXqGfVw==
+"@nebulars/time@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/time/-/time-0.3.46.tgz#ad0d090fbab5dcb3f0e071fbc4c4cdf5486a2c47"
+  integrity sha512-hysAJuyiAdHb6rUADOs2PnkVStcAnCvCQZomLAcLZ5Wxnye3S3RuRneAE5DdvMHO2sTXukiONGMG3PIFr7eB/A==
   dependencies:
-    "@nebulars/json" "^0.2.100"
+    "@nebulars/json" "^0.3.46"
     dayjs "^1.11.13"
 
-"@nebulars/tolerance@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/tolerance/-/tolerance-0.2.100.tgz#ac62acc1a61f73ca8e2a2995f90052dd0b2f5130"
-  integrity sha512-9XfKfNkCmndAR61AJHbh6FLeYwUf3/dCOofWXeGNTR9qOveHCTvpn/Eycff2P+ERTePFq62BcEjLJq0jQ7e61g==
+"@nebulars/tolerance@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/tolerance/-/tolerance-0.3.46.tgz#4621799dfb2688fed3fcb2ef9d22572a5ca137c3"
+  integrity sha512-AgUMwEHEB+Vr18VRu6cKzmhxxfEkUMfB58MGvhGvDt+XlLqdZU/YWVMW7g4Sp978PymVH2kb92tPxkXpqVZu9Q==
 
-"@nebulars/transition@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/transition/-/transition-0.2.100.tgz#9fb56c796cb23a04d72788808645783f0ae62eb5"
-  integrity sha512-7nSks9l/cI2phlDoOEJZ2wAVgC2kpyyHiqkhMYolWaJT2UzwoozOB4cDHJb2y3eUH6gr5JKCBfMXs5G3C0RPSA==
+"@nebulars/transition@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/transition/-/transition-0.3.46.tgz#3d03ab5183ca14557cc31fca8d93544cf838a527"
+  integrity sha512-2xZwVZCmkFvXZLsHhfdKlN3G4A90S0NrF7oIELMamBb9p7wGshdXrngtb3U3btOzr600jrpPw+2ImfN8ifgTAA==
 
-"@nebulars/url@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/url/-/url-0.2.100.tgz#8abd1bc3653dd815da419f3c5af89407e8c291c8"
-  integrity sha512-CHb5dRScFyGOmlmu1eHxJaO6qB9nav1CNfKyxBKgWTo5Q5CMbtcgTkZy53iuUmzKdMRsTT229dBq9X0ogxuFVg==
+"@nebulars/url@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/url/-/url-0.3.46.tgz#e8173bb630a533cc4a2a9a8933009211f571b32c"
+  integrity sha512-adf3fLzyyw1JHJECXT2QDawJZmyjyvl16pqbqo+spvL2OUmywimazPHKmSrb017A8gEyuBO+4wEe12jXO+Gi6g==
 
-"@nebulars/uuid@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/uuid/-/uuid-0.2.100.tgz#0a187c65a2d720e58aaeb7a4ed29a8ba01554bb1"
-  integrity sha512-TnnP2DkSQLlcPs6BUx6KV2G5xLqMyi7G210iYXrmvcDoB5Q3LxJons4qybeTFU0OmZOP4DAf+GfoevxaWKGvFg==
+"@nebulars/uuid@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/uuid/-/uuid-0.3.46.tgz#dfe2253f78907e950d588dc315e7b8fea6a261b3"
+  integrity sha512-ILdbg8/UwO/RmkTLDJyL7QCuzBLvWKBQPhwPrlladthnDGasPdS7CX0SBDpXBF0HRpLM8b3QfwkAygh6ZHvlJA==
   dependencies:
     uuid "^11.1.0"
 
-"@nebulars/variables@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/variables/-/variables-0.2.100.tgz#84afc03c5a4d3ea881b1eb7f358acf84e2f85d9b"
-  integrity sha512-IH9W18fAzbI/JI99H/1x5zweyUjnfTnN/PJKMSu00sxQaE83MtkueAgB4PlQ+077+umc0L3+4Rcy1jXTAbiuyA==
+"@nebulars/variables@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/variables/-/variables-0.3.46.tgz#aab47072c1a57a14dc997c5c3d6c545bdc707a97"
+  integrity sha512-vGnHjNdXbg/JiiZAaxolNq0+fQs9K7WbPbSeWe3NYNSz/l9vUEwfrD0e3Uv6x8SC56SR8euvQpeGaJePOl8FMA==
 
-"@nebulars/webcom@^0.2.100":
-  version "0.2.100"
-  resolved "https://registry.yarnpkg.com/@nebulars/webcom/-/webcom-0.2.100.tgz#a109ead71071c2e88af5338c8c307e4550a09814"
-  integrity sha512-gJ+WqqqzR8tkGY5+SOPXaPh6WBttvu/qNbdKFH74n8yA+qBenE23O14S19yUD6QJhMt3hvqmsgimcJ7A32brMA==
+"@nebulars/webcom@^0.3.46":
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/@nebulars/webcom/-/webcom-0.3.46.tgz#b8a4a9ac87df46aafc995c9f46b7322ef04cb52c"
+  integrity sha512-QtpKCmIcoKOu7b/T4N/nonjEtcUsf6rW0LqGjRzGT0RCekKj/lheI2ddNV3+7PcIKinA0+2KDQLxpCi2+oh1Mg==
   dependencies:
     wujie-vue3 "^1.0.28"
 
@@ -2037,6 +2084,13 @@
   version "1.0.0-next.29"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.29.tgz#5a40109a1ab5f84d6fd8fc928b19f367cbe7e7b1"
   integrity sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==
+
+"@posthog/core@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@posthog/core/-/core-1.7.1.tgz#ec45a3b13acbe4fbf453625c83bcd38da21beeb7"
+  integrity sha512-kjK0eFMIpKo9GXIbts8VtAknsoZ18oZorANdtuTj1CbgS28t4ZVq//HAWhnxEuXRTrtkd+SUJ6Ux3j2Af8NCuA==
+  dependencies:
+    cross-spawn "^7.0.6"
 
 "@scaff/environ@^3.7.36":
   version "3.7.36"
@@ -4136,6 +4190,11 @@ core-js@^3.15.1, core-js@^3.8.3:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.46.0.tgz#323a092b96381a9184d0cd49ee9083b2f93373bb"
   integrity sha512-vDMm9B0xnqqZ8uSBpZ8sNtRtOdmfShrvT6h2TuQGLs0Is+cR0DYbj/KWP6ALVNbWPpqA/qPLoOuppJN07humpA==
 
+core-js@^3.38.1:
+  version "3.47.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.47.0.tgz#436ef07650e191afeb84c24481b298bd60eb4a17"
+  integrity sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==
+
 core-util-is@^1.0.2, core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
@@ -5133,6 +5192,11 @@ fdir@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.5.0.tgz#ed2ab967a331ade62f18d077dae192684d50d350"
   integrity sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==
+
+fflate@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.4.8.tgz#f90b82aefbd8ac174213abb338bd7ef848f0f5ae"
+  integrity sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==
 
 figures@^2.0.0:
   version "2.0.0"
@@ -6464,6 +6528,11 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+lz-string@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
+  integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
 magic-string@^0.30.19:
   version "0.30.19"
@@ -7884,6 +7953,22 @@ postcss@^8.2.6, postcss@^8.3.5, postcss@^8.4.27, postcss@^8.4.31, postcss@^8.4.3
     nanoid "^3.3.11"
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
+
+posthog-js@^1.290.0:
+  version "1.302.0"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.302.0.tgz#c82e7c3482594e7c7d94cb2b458ab279c8952086"
+  integrity sha512-cBvxnAyKgcoXnikFJROCSqN8i1x9bm+szj7HOQ92mw3anlW7LK7vZ8hrQ4VNUGNIMu0ogP8djvXW5W8AlWbFcQ==
+  dependencies:
+    "@posthog/core" "1.7.1"
+    core-js "^3.38.1"
+    fflate "^0.4.8"
+    preact "^10.19.3"
+    web-vitals "^4.2.4"
+
+preact@^10.19.3:
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.28.0.tgz#a851300df42842797046545e4172a4128d158755"
+  integrity sha512-rytDAoiXr3+t6OIP3WGlDd0ouCUG1iCWzkcY3++Nreuoi17y6T5i/zRhe6uYfoVcxq6YU+sBtJouuRDsq8vvqA==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -9369,6 +9454,11 @@ vue-eslint-parser@^9.1.1, vue-eslint-parser@^9.4.3:
     lodash "^4.17.21"
     semver "^7.3.6"
 
+vue-horizontal@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vue-horizontal/-/vue-horizontal-1.0.2.tgz#8142c46ad473c1ba9d7658b85dee3a5698b37b73"
+  integrity sha512-prxGBFpChYoh/rrZmPdPO5VtQLkF8uu6/JFdd+lJvhln4lRB55IiOSwB4IVrL+GlGLXcooGV0QTKGGW9RqfjIA==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -9535,6 +9625,11 @@ web-resource-inliner@^6.0.1:
     mime "^2.4.6"
     node-fetch "^2.6.0"
     valid-data-url "^3.0.0"
+
+web-vitals@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-4.2.4.tgz#1d20bc8590a37769bd0902b289550936069184b7"
+  integrity sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
