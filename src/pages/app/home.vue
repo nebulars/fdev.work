@@ -67,7 +67,7 @@
 </style>
 
 <template>
-  <s-video src="https://oss.rtclouddata.cn/fdev/bg.mp4" />
+  <s-video src="https://oss.billionsintelligence.com/download/fdev_bg.mp4" />
 
   <s-section class="home" :flex="true" justify="space-between" align="center">
     <div class="typeit" ref="typeit"></div>
